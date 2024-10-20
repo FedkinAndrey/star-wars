@@ -48,7 +48,7 @@ npm run test
 ```
 
 ## Path Aliases
-This project uses the @ alias to reference the src directory. This is configured in:
+This project uses the `@` alias to reference the src directory. This is configured in:
 
 - vite.config.ts
 - tsconfig.json
