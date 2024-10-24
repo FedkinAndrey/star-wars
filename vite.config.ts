@@ -14,7 +14,7 @@ export default defineConfig(({ mode }) => {
 
 	return {
 		plugins: [react()],
-		base: '/star-wars/',
+		base: mode === 'production' ? '/star-wars/' : '/',
 		resolve: {
 			alias: {
 				'@': path.resolve(__dirname, './src'),
